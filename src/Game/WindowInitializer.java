@@ -87,13 +87,13 @@ public class WindowInitializer extends JFrame {
         setBomb();
         setVisible(true);
         JOptionPane.showMessageDialog(this, "Press R for the commands " +
-                "\n To fight an enemy you must go to is postion " +
+                "\n To fight an enemy you have to go on his postion " +
                 "\n Objective to kill the king" +
                 "\n---------------------------------------------------" +
-                "\n [Tips] Don't fight with you'r hand " +
+                "\n [Tips] Don't fight with your hand " +
                 "\n [Tips] Remember to scan your enemy before facing it " +
                 "\n [Tips] Don't underestimate the armor " +
-                "\n [Tips] Going to a space for the first time earns you coins","Start", JOptionPane.INFORMATION_MESSAGE);
+                "\n [Tips] Going to a place for the first time earns you coins","Start", JOptionPane.INFORMATION_MESSAGE);
         System.gc();
     }
 
